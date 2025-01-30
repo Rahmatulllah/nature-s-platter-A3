@@ -38,12 +38,13 @@
 </head>
 <body class="sora-font box-border">
     <!-- header section -->
-    <header>
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
         <!-- navbar -->
-        <nav class="grid md:grid-cols-3 max-w-7xl md:mx-auto md:justify-center items-center mt-9">
+        <nav class="grid md:grid-cols-3 max-w-7xl md:mx-auto md:justify-center items-center mt-9 mb-14">
         <!-- nav img -->
-            <div >
+            <div class="flex justify-between items-center px-4">
                 <img src="c2-assets/logo-header.png" alt="header logo">
+                <i class="fa-solid fa-bars text-5xl text-green-600 md:hidden"></i>
             </div>
              <!-- nav menu -->
              <div class="space-x-6 ml-10 hidden md:block">
@@ -61,7 +62,20 @@
                  </div>
             </div>
         </nav>
-        <hr class="md:hidden border-t-2 border-green-400 mt-5">
+        <hr class="md:hidden border-t-2 border-green-400 mb-10">
+        <!-- banner -->
+         <div class="flex flex-col justify-center items-center gap-9">
+            <!-- banner text -->
+             <div class="text-center space-y-8">
+                <h1 class="text-5xl font-semibold">Freshness <span class="text-green-600">You Can<br>
+                    Count</span> On, Prices You’ll Love!</h1>
+                <p class="text-base text-black font-light max-w-2xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+             </div>
+             <!-- banner img -->
+              <div>
+                  <img class="w-full max-w-5xl" src="c2-assets/hero-vegetables.png" alt="hero png">
+              </div>
+         </div>
     </header>
     <main>
 
